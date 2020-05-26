@@ -1,6 +1,10 @@
+import java.util.Arrays;
+
 public class BinarySearch {
     public static void main(String[] args) {
+
         int[] a = {2, 2, 3, 9, 11, 11, 11, 94};
+        Arrays.sort(a);
 
         BinarySearch obj = new BinarySearch();
         System.out.println("searching element '11' position : " + obj.search(a, 11));
@@ -76,3 +80,10 @@ public class BinarySearch {
         return -1;
     }
 }
+
+/* Output :
+searching element '11' position : 5
+First occurrence of element : 4
+Last occurrence of element : 6
+count of element : 3
+ */
