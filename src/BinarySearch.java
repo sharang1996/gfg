@@ -63,10 +63,10 @@ public class BinarySearch {
 
         while (l <= r) {
             int mid = (l + r) / 2;
-            //System.out.println(l);
-            //System.out.println(r);
-            //System.out.println(mid);
-            //System.out.println("\n");
+           /* System.out.println(l);
+            System.out.println(r);
+            System.out.println(mid);
+            System.out.println("\n");*/
 
             if (arr[mid] == s)
                 return mid;
